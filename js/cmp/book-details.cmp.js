@@ -13,8 +13,8 @@ export default {
                 <h4>Reading time: {{calculateSize}}</h4>
                 <h4>Status: {{calculateAge}}</h4>
                 <h4 v-bind:class="{red: isExpensive,green: isCheap}">Price: {{book.listPrice.amount}}</h4>
-                <div><img width="100px" src="../img/sale.png" v-if="isOnSale"/></div>
-                <button  class="prev" @click=changeBook(-1)>Prev</button>
+                <div><img width="100px" src="img/sale.png" v-if="isOnSale"/></div>
+                <button class="prev" @click=changeBook(-1)>Prev</button>
                 <button class="next" @click=changeBook(1)>Next</button>
                 <br>
                 <button class="close-details" @click=goBackToBooks>Back</button>
