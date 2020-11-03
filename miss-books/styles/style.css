@@ -1,0 +1,41 @@
+.book-details{
+    background-color: pink;
+    display: flex;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color:green;
+}
+
+.books-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    margin: 50px;
+    grid-gap: 35px;
+}
+
+.book-filter{
+    text-align: center;
+}
+
+.main-header{
+    background-color: pink;
+    text-align: center;
+    height: 50px;
+}
+
+.details-view{
+    width: 50%;
+    background-color: rgb(216, 212, 212);
+    margin: 10px auto;
+    text-align: center;
+}
+
+.clickable{
+    cursor: pointer;
+}
